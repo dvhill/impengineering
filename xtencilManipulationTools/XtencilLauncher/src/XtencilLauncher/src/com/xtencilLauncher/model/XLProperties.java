@@ -30,5 +30,5 @@ public class XLProperties implements Serializable {
 	public void setOutputFile(String outputFile) {
 		this.outputFile = outputFile;
 	}
-	//DANNY HILL
+	
 }
