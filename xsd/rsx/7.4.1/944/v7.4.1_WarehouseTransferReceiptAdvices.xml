@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WarehouseTransferReceiptAdvices xmlns="http://www.spscommerce.com/RSX">
+  <WarehouseTransferReceiptAdvice>
+    <Meta>
+      <SenderUniqueID>9999999999</SenderUniqueID>
+      <SenderCompanyName>Test Company 1</SenderCompanyName>
+      <ReceiverUniqueID>000000000</ReceiverUniqueID>
+      <ReceiverCompanyName>SPS Commerce</ReceiverCompanyName>
+      <IsDropShip>true</IsDropShip>
+      <InterchangeControlNumber>111111111</InterchangeControlNumber>
+      <GroupControlIdentifier>55555555</GroupControlIdentifier>
+      <GroupControlNumber>2222222</GroupControlNumber>
+      <DocumentControlIdentifier>1111111222222</DocumentControlIdentifier>
+      <DocumentControlNumber>4444444444444</DocumentControlNumber>
+      <InterchangeSenderID>987654321098</InterchangeSenderID>
+      <InterchangeReceiverID>123456789012</InterchangeReceiverID>
+      <GroupSenderID>987654321098</GroupSenderID>
+      <GroupReceiverID>123456789012</GroupReceiverID>
+      <BatchPart>99995555</BatchPart>
+      <BatchTotal>30</BatchTotal>
+      <BatchID>testBatchID</BatchID>
+      <Comments>testComments</Comments>
+      <Validation>testValidation</Validation>
+      <OrderManagement>Bulk-Import</OrderManagement>
+      <Version>testVersion</Version>
+    </Meta>
+    <Header>
+      <HeaderDetail>
+        <TradingPartnerId>000ALLTESTID</TradingPartnerId>
+        <WarehouseReceiptId>44449994444</WarehouseReceiptId>
+        <ShipmentIdentification>321654987</ShipmentIdentification>
+        <DepositorOrderNumber>8888888877</DepositorOrderNumber>
+        <ShipmentDate>2013-09-22</ShipmentDate>
+        <ReportingCode>J</ReportingCode>
+        <MasterLinkNumber>testMasterLinkNumber</MasterLinkNumber>
+        <LinkSequenceNumber>98</LinkSequenceNumber>
+        <QuantityOfPalletsReceived>30</QuantityOfPalletsReceived>
+        <QuantityOfPalletsReturned>30</QuantityOfPalletsReturned>
+        <QuantityContested>2.8</QuantityContested>
+        <ReceivingConditionCode>01</ReceivingConditionCode>
+        <UnitLoadOptionCode>02</UnitLoadOptionCode>
+        <TemperatureLocationCode>02</TemperatureLocationCode>
+        <TemperatureUOM>CT</TemperatureUOM>
+        <Temperature>43.43</Temperature>
+      </HeaderDetail>
+      <Date>
+        <DateTimeQualifier1>013</DateTimeQualifier1>
+        <Date1>2012-10-31</Date1>
+        <Time1>16:13:03-05:00</Time1>
+        <TimeCode1>testTimeCode1</TimeCode1>
+        <DateTimeFormQualifier1>testDateTimeFormQualifier1</DateTimeFormQualifier1>
+        <DateTimePeriod>testDateTimePeriod</DateTimePeriod>
+      </Date>
+      <CarrierInformation>
+        <StatusCode>CL</StatusCode>
+        <CarrierTransMethodCode>HH</CarrierTransMethodCode>
+        <CarrierAlphaCode>UPGF</CarrierAlphaCode>
+        <CarrierRouting>UPS Ground Freight</CarrierRouting>
+        <EquipmentDescriptionCode>CN</EquipmentDescriptionCode>
+        <CarrierEquipmentInitial>FEDX</CarrierEquipmentInitial>
+        <CarrierEquipmentNumber>4806196209</CarrierEquipmentNumber>
+        <EquipmentType>testEquipmentType</EquipmentType>
+        <SealStatusCode>04</SealStatusCode>
+        <SealNumber>AA1111111</SealNumber>
+        <OwnershipCode>S</OwnershipCode>
+        <RoutingSequenceCode>testRoutingSequenceCode</RoutingSequenceCode>
+        <TransitDirectionCode>SD</TransitDirectionCode>
+        <ServiceLevelCodes>
+          <ServiceLevelCode>ET</ServiceLevelCode>
+        </ServiceLevelCodes>
+      </CarrierInformation>
+      <Contact>
+        <ContactTypeCode>SR</ContactTypeCode>
+        <ContactName>SPS Commerce</ContactName>
+        <ContactPhone>866-245-8100</ContactPhone>
+        <ContactFax>612-435-9401</ContactFax>
+        <ContactEmail>info@spscommerce.com</ContactEmail>
+        <ContactReference>ext: 451</ContactReference>
+      </Contact>
+      <Address>
+        <AddressTypeCode>WH</AddressTypeCode>
+        <LocationCodeQualifier>6</LocationCodeQualifier>
+        <AddressLocationNumber>11111</AddressLocationNumber>
+        <AddressName>SPS Commerce</AddressName>
+        <AddressAlternateName>ATTN: Marketing</AddressAlternateName>
+        <AddressAlternateName2>ATTN: John Doe</AddressAlternateName2>
+        <Address1>333 South 7th Street</Address1>
+        <Address2>ATTN: The President</Address2>
+        <Address3>333 South Seventh Street Tower</Address3>
+        <Address4>10th Floor</Address4>
+        <City>Washington</City>
+        <State>MN</State>
+        <PostalCode>55402</PostalCode>
+        <Country>USA</Country>
+        <LocationID>East Location, next to interstate.</LocationID>
+        <CountrySubDivision>testCountrySubDivision</CountrySubDivision>
+        <AddressTaxIdNumber>999999</AddressTaxIdNumber>
+        <AddressTaxExemptNumber>testAddressTaxExemptNumber</AddressTaxExemptNumber>
+        <Reference>
+          <ReferenceQual>TC</ReferenceQual>
+          <ReferenceID>testReferenceID</ReferenceID>
+          <Description>New products only. Do not reuse packaging.</Description>
+          <Date1>2013-12-21</Date1>
+          <Time1>16:13:03-05:00</Time1>
+          <TimeCode1>testTimeCode1</TimeCode1>
+          <ReferenceIDs>
+            <ReferenceQual>LT</ReferenceQual>
+            <ReferenceID>testReferenceID</ReferenceID>
+          </ReferenceIDs>
+        </Reference>
+        <Contact>
+          <ContactTypeCode>BI</ContactTypeCode>
+          <ContactName>SPS Commerce</ContactName>
+          <ContactPhone>866-245-8100</ContactPhone>
+          <ContactFax>612-435-9401</ContactFax>
+          <ContactEmail>info@spscommerce.com</ContactEmail>
+          <ContactReference>ext: 451</ContactReference>
+        </Contact>
+        <Date>
+          <DateTimeQualifier1>328</DateTimeQualifier1>
+          <Date1>2013-12-21</Date1>
+          <Time1>16:13:03-05:00</Time1>
+          <TimeCode1>testTimeCode1</TimeCode1>
+          <DateTimeFormQualifier1>testDateTimeFormQualifier1</DateTimeFormQualifier1>
+          <DateTimePeriod>testDateTimePeriod</DateTimePeriod>
+        </Date>
+      </Address>
+      <Reference>
+        <ReferenceQual>BY</ReferenceQual>
+        <ReferenceID>testReferenceID</ReferenceID>
+        <Description>New products only. Do not reuse packaging.</Description>
+        <Date1>2012-10-31</Date1>
+        <Time1>16:13:03-05:00</Time1>
+        <TimeCode1>testTimeCode1</TimeCode1>
+        <ReferenceIDs>
+          <ReferenceQual>BRN</ReferenceQual>
+          <ReferenceID>testReferenceID</ReferenceID>
+        </ReferenceIDs>
+      </Reference>
+      <Notes>
+        <NoteCode>GEN</NoteCode>
+        <NoteInformationField>REPEAT LOGO PREVIOUS ORDER</NoteInformationField>
+        <LanguageCode>ENG</LanguageCode>
+        <NoteFormatCode>testNoteFormatCode</NoteFormatCode>
+        <NoteFunctionCode>testNoteFunctionCode</NoteFunctionCode>
+      </Notes>
+    </Header>
+    <OrderLevel>
+      <LineItems>
+        <LineItem>
+          <ItemDetail>
+            <LineSequenceNumber>02</LineSequenceNumber>
+            <ApplicationId>980023</ApplicationId>
+            <BuyerPartNumber>9999-SPS</BuyerPartNumber>
+            <VendorPartNumber>11155-559999</VendorPartNumber>
+            <ConsumerPackageCode>093597609541</ConsumerPackageCode>
+            <EAN>1234567890123</EAN>
+            <GTIN>12345678901234</GTIN>
+            <UPCCaseCode>98765432101</UPCCaseCode>
+            <NatlDrugCode>51456-299</NatlDrugCode>
+            <InternationalStandardBookNumber>999-0-555-22222-0</InternationalStandardBookNumber>
+            <ProductID>
+              <PartNumberQual>BO</PartNumberQual>
+              <PartNumber>ABC-456789</PartNumber>
+            </ProductID>
+            <ShipQty>75</ShipQty>
+            <ShipQtyUOM>TY</ShipQtyUOM>
+            <WarehouseLotID>testWarehouseLotID</WarehouseLotID>
+            <WarehouseDetailAdjID>testWarehouseDetailAdjID</WarehouseDetailAdjID>
+            <UnitWeight>92.43</UnitWeight>
+            <Color>testColor</Color>
+          </ItemDetail>
+          <DetailResponse>
+            <Qty>65</Qty>
+            <QtyUOM>LT</QtyUOM>
+            <ReceivingConditionCode>02</ReceivingConditionCode>
+            <WarehouseLotID>testWarehouseLotID</WarehouseLotID>
+            <DamageReasonCode>WC</DamageReasonCode>
+            <Reference>
+              <ReferenceQual>BM</ReferenceQual>
+              <ReferenceID>testReferenceID</ReferenceID>
+              <Description>New products only. Do not reuse packaging.</Description>
+              <Date1>2013-12-21</Date1>
+              <Time1>16:13:03-05:00</Time1>
+              <TimeCode1>testTimeCode1</TimeCode1>
+              <ReferenceIDs>
+                <ReferenceQual>VN</ReferenceQual>
+                <ReferenceID>testReferenceID</ReferenceID>
+              </ReferenceIDs>
+            </Reference>
+          </DetailResponse>
+          <ProductOrItemDescription>
+            <ItemDescriptionType>76</ItemDescriptionType>
+            <ProductCharacteristicCode>testProductCharacteristicCode</ProductCharacteristicCode>
+            <AgencyQualifierCode>testAgencyQualifierCode</AgencyQualifierCode>
+            <ProductDescriptionCode>testProductDescriptionCode</ProductDescriptionCode>
+            <ProductDescription>Super comfortable</ProductDescription>
+            <SurfaceLayerPositionCode>testSurfaceLayerPositionCode</SurfaceLayerPositionCode>
+            <SourceSubqualifier>testSourceSubqualifier</SourceSubqualifier>
+            <YesOrNoResponse>testYesOrNoResponse</YesOrNoResponse>
+            <LanguageCode>ENG</LanguageCode>
+          </ProductOrItemDescription>
+          <PhysicalDetails>
+            <OuterPack>4</OuterPack>
+            <PackSize>18</PackSize>
+            <PackUOM>SF</PackUOM>
+            <PackCode>TBE</PackCode>
+            <WeightQualifier>N</WeightQualifier>
+            <PackWeight>1600</PackWeight>
+            <PackWeightUOM>PC</PackWeightUOM>
+            <PackVolume>1728</PackVolume>
+            <PackVolumeUOM>2W</PackVolumeUOM>
+            <PackLength>12</PackLength>
+            <PackWidth>12</PackWidth>
+            <PackHeight>12</PackHeight>
+            <PackDimensionUOM>CM</PackDimensionUOM>
+            <InnerPack>6</InnerPack>
+            <SurfaceLayerPositionCode>testSurfaceLayerPositionCode</SurfaceLayerPositionCode>
+            <AssignedID>testAssignedID</AssignedID>
+          </PhysicalDetails>
+          <Reference>
+            <ReferenceQual>RU</ReferenceQual>
+            <ReferenceID>testReferenceID</ReferenceID>
+            <Description>New products only. Do not reuse packaging.</Description>
+            <Date1>2013-12-21</Date1>
+            <Time1>16:13:03-05:00</Time1>
+            <TimeCode1>testTimeCode1</TimeCode1>
+            <ReferenceIDs>
+              <ReferenceQual>QC</ReferenceQual>
+              <ReferenceID>testReferenceID</ReferenceID>
+            </ReferenceIDs>
+          </Reference>
+          <Notes>
+            <NoteCode>GFT</NoteCode>
+            <NoteInformationField>REPEAT LOGO PREVIOUS ORDER</NoteInformationField>
+            <LanguageCode>ENG</LanguageCode>
+            <NoteFormatCode>testNoteFormatCode</NoteFormatCode>
+            <NoteFunctionCode>testNoteFunctionCode</NoteFunctionCode>
+          </Notes>
+        </LineItem>
+      </LineItems>
+    </OrderLevel>
+    <Summary>
+      <QtyReceived>60.59</QtyReceived>
+      <UnitsShipped>72.12</UnitsShipped>
+      <QtyDamageOrOnHold>75.66</QtyDamageOrOnHold>
+      <LadingQuantityReceived>4099</LadingQuantityReceived>
+      <LadingQuantity>4100</LadingQuantity>
+    </Summary>
+  </WarehouseTransferReceiptAdvice>
+</WarehouseTransferReceiptAdvices>

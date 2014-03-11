@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OrganizationalRelationships xmlns="http://www.spscommerce.com/RSX">
+  <OrganizationalRelationship>
+    <Meta>
+      <SenderUniqueID>9999999999</SenderUniqueID>
+      <SenderCompanyName>Test Company 1</SenderCompanyName>
+      <ReceiverUniqueID>000000000</ReceiverUniqueID>
+      <ReceiverCompanyName>SPS Commerce</ReceiverCompanyName>
+      <IsDropShip>true</IsDropShip>
+      <InterchangeControlNumber>111111111</InterchangeControlNumber>
+      <GroupControlIdentifier>55555555</GroupControlIdentifier>
+      <GroupControlNumber>2222222</GroupControlNumber>
+      <DocumentControlIdentifier>1111111222222</DocumentControlIdentifier>
+      <DocumentControlNumber>4444444444444</DocumentControlNumber>
+      <InterchangeSenderID>987654321098</InterchangeSenderID>
+      <InterchangeReceiverID>123456789012</InterchangeReceiverID>
+      <GroupSenderID>987654321098</GroupSenderID>
+      <GroupReceiverID>123456789012</GroupReceiverID>
+      <BatchPart>99995555</BatchPart>
+      <BatchTotal>25</BatchTotal>
+      <BatchID>testBatchID</BatchID>
+      <Comments>testComments</Comments>
+      <Validation>testValidation</Validation>
+      <OrderManagement>StockTransfer</OrderManagement>
+      <Version>testVersion</Version>
+    </Meta>
+    <Header>
+      <OrganizationalRelationshipHeader>
+        <TradingPartnerId>000ALLTESTID</TradingPartnerId>
+        <DocumentId>951753-25</DocumentId>
+        <StructureCode>testStructureCode</StructureCode>
+        <TsetPurposeCode>01</TsetPurposeCode>
+        <DocDate>2014-03-11</DocDate>
+        <DocTime>12:44:54</DocTime>
+        <TsetTypeCode>testTsetTypeCode</TsetTypeCode>
+      </OrganizationalRelationshipHeader>
+      <Date>
+        <DateTimeQualifier1>201</DateTimeQualifier1>
+        <Date1>2013-12-21</Date1>
+        <Time1>16:13:03-05:00</Time1>
+        <TimeCode1>testTimeCode1</TimeCode1>
+        <DateTimeFormQualifier1>testDateTimeFormQualifier1</DateTimeFormQualifier1>
+        <DateTimePeriod>testDateTimePeriod</DateTimePeriod>
+      </Date>
+      <Reference>
+        <ReferenceQual>TN</ReferenceQual>
+        <ReferenceID>testReferenceID</ReferenceID>
+        <Description>New products only. Do not reuse packaging.</Description>
+        <Date1>2012-10-31</Date1>
+        <Time1>16:13:03-05:00</Time1>
+        <TimeCode1>testTimeCode1</TimeCode1>
+        <ReferenceIDs>
+          <ReferenceQual>DK</ReferenceQual>
+          <ReferenceID>testReferenceID</ReferenceID>
+        </ReferenceIDs>
+      </Reference>
+      <Notes>
+        <NoteCode>PCK</NoteCode>
+        <NoteInformationField>REPEAT LOGO PREVIOUS ORDER</NoteInformationField>
+        <LanguageCode>ENG</LanguageCode>
+        <NoteFormatCode>testNoteFormatCode</NoteFormatCode>
+        <NoteFunctionCode>testNoteFunctionCode</NoteFunctionCode>
+      </Notes>
+      <Address>
+        <AddressTypeCode>CS</AddressTypeCode>
+        <LocationCodeQualifier>6</LocationCodeQualifier>
+        <AddressLocationNumber>11111</AddressLocationNumber>
+        <AddressName>The White House</AddressName>
+        <AddressAlternateName>ATTN: Marketing</AddressAlternateName>
+        <AddressAlternateName2>ATTN: John Doe</AddressAlternateName2>
+        <Address1>1600 Pennsylvia Ave NW</Address1>
+        <Address2>ATTN: The President</Address2>
+        <Address3>333 South Seventh Street Tower</Address3>
+        <Address4>10th Floor</Address4>
+        <City>Minneapolis</City>
+        <State>MN</State>
+        <PostalCode>55402</PostalCode>
+        <Country>US</Country>
+        <LocationID>East Location, next to interstate.</LocationID>
+        <CountrySubDivision>testCountrySubDivision</CountrySubDivision>
+        <AddressTaxIdNumber>999999</AddressTaxIdNumber>
+        <AddressTaxExemptNumber>testAddressTaxExemptNumber</AddressTaxExemptNumber>
+        <Reference>
+          <ReferenceQual>PJ</ReferenceQual>
+          <ReferenceID>testReferenceID</ReferenceID>
+          <Description>New products only. Do not reuse packaging.</Description>
+          <Date1>2013-12-21</Date1>
+          <Time1>16:13:03-05:00</Time1>
+          <TimeCode1>testTimeCode1</TimeCode1>
+          <ReferenceIDs>
+            <ReferenceQual>SI</ReferenceQual>
+            <ReferenceID>testReferenceID</ReferenceID>
+          </ReferenceIDs>
+        </Reference>
+        <Contact>
+          <ContactTypeCode>RE</ContactTypeCode>
+          <ContactName>SPS Commerce</ContactName>
+          <ContactPhone>866-245-8100</ContactPhone>
+          <ContactFax>612-435-9401</ContactFax>
+          <ContactEmail>info@spscommerce.com</ContactEmail>
+          <ContactReference>ext: 451</ContactReference>
+        </Contact>
+        <Date>
+          <DateTimeQualifier1>067</DateTimeQualifier1>
+          <Date1>2012-10-31</Date1>
+          <Time1>16:13:03-05:00</Time1>
+          <TimeCode1>testTimeCode1</TimeCode1>
+          <DateTimeFormQualifier1>testDateTimeFormQualifier1</DateTimeFormQualifier1>
+          <DateTimePeriod>testDateTimePeriod</DateTimePeriod>
+        </Date>
+      </Address>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <Hierarchical>
+          <IDNumber>testIDNumber</IDNumber>
+          <ParentIDNumber>testParentIDNumber</ParentIDNumber>
+          <LevelCode>testLevelCode</LevelCode>
+          <ChildCode>testChildCode</ChildCode>
+        </Hierarchical>
+        <OrganizationalRelationshipAddresses>
+          <OrganizationalRelationshipAddress>
+            <Address>
+              <AddressTypeCode>BO</AddressTypeCode>
+              <LocationCodeQualifier>91</LocationCodeQualifier>
+              <AddressLocationNumber>11111</AddressLocationNumber>
+              <AddressName>SPS Commerce</AddressName>
+              <AddressAlternateName>ATTN: Marketing</AddressAlternateName>
+              <AddressAlternateName2>ATTN: John Doe</AddressAlternateName2>
+              <Address1>333 South 7th Street</Address1>
+              <Address2>ATTN: The President</Address2>
+              <Address3>333 South Seventh Street Tower</Address3>
+              <Address4>10th Floor</Address4>
+              <City>Minneapolis</City>
+              <State>MN</State>
+              <PostalCode>55402</PostalCode>
+              <Country>USA</Country>
+              <LocationID>East Location, next to interstate.</LocationID>
+              <CountrySubDivision>testCountrySubDivision</CountrySubDivision>
+              <AddressTaxIdNumber>999999</AddressTaxIdNumber>
+              <AddressTaxExemptNumber>testAddressTaxExemptNumber</AddressTaxExemptNumber>
+              <Reference>
+                <ReferenceQual>VF</ReferenceQual>
+                <ReferenceID>testReferenceID</ReferenceID>
+                <Description>New products only. Do not reuse packaging.</Description>
+                <Date1>2012-10-31</Date1>
+                <Time1>16:13:03-05:00</Time1>
+                <TimeCode1>testTimeCode1</TimeCode1>
+                <ReferenceIDs>
+                  <ReferenceQual>BM</ReferenceQual>
+                  <ReferenceID>testReferenceID</ReferenceID>
+                </ReferenceIDs>
+              </Reference>
+              <Contact>
+                <ContactTypeCode>CH</ContactTypeCode>
+                <ContactName>SPS Commerce</ContactName>
+                <ContactPhone>866-245-8100</ContactPhone>
+                <ContactFax>612-435-9401</ContactFax>
+                <ContactEmail>info@spscommerce.com</ContactEmail>
+                <ContactReference>ext: 451</ContactReference>
+              </Contact>
+              <Date>
+                <DateTimeQualifier1>006</DateTimeQualifier1>
+                <Date1>2012-10-31</Date1>
+                <Time1>16:13:03-05:00</Time1>
+                <TimeCode1>testTimeCode1</TimeCode1>
+                <DateTimeFormQualifier1>testDateTimeFormQualifier1</DateTimeFormQualifier1>
+                <DateTimePeriod>testDateTimePeriod</DateTimePeriod>
+              </Date>
+            </Address>
+            <ItemQuantity>
+              <QuantityQualifier>70</QuantityQualifier>
+              <Quantity1>70</Quantity1>
+              <QtyUOM>WD</QtyUOM>
+              <FreeFormMessage>testFreeFormMessage</FreeFormMessage>
+              <TotalAmountType>testTotalAmountType</TotalAmountType>
+              <TotalAmount>4058.92</TotalAmount>
+              <CreditDebitFlag>testCreditDebitFlag</CreditDebitFlag>
+            </ItemQuantity>
+            <Action>
+              <ActionCode>2</ActionCode>
+              <MaintenanceType>testMaintenanceType</MaintenanceType>
+              <StatusReasonCode>testStatusReasonCode</StatusReasonCode>
+            </Action>
+          </OrganizationalRelationshipAddress>
+        </OrganizationalRelationshipAddresses>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <AddressCount>61</AddressCount>
+    </Summary>
+  </OrganizationalRelationship>
+</OrganizationalRelationships>
